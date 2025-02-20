@@ -1,0 +1,22 @@
+
+:root {
+    /* Primary font */
+    --font-roboto: 'Roboto', sans-serif, Arial, Calibri;
+    --font-play: 'Playwrite', sans-serif, Arial, Calibri;
+  
+    /* Primary colors */
+    --color-primary: #4a90e2;
+    --color-secondary: #50e3c2;
+  
+  
+    /* Accent colors */
+    --color-accent: #f5a623;
+  
+    /* Neutrals */
+    --color-background: #c5c5c5;
+    --color-surface: #c8c8c8;
+    --color-text: #0f0f0f;
+    --color-muted: #535353;
+  
+  }
+  

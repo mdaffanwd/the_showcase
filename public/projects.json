@@ -1,0 +1,48 @@
+{
+    "icons": {
+        "tabIcon": "/external_link.svg",
+        "githubIcon": "/github_icon.svg"
+    },
+    "categories": [
+        {
+            "name": "HTML & CSS Projects",
+            "projects": [
+                {
+                    "iframeLink": "https://mdaffanwd.github.io/css-grid-practice/",
+                    "name": "Testimonials Section Full Page",
+                    "description": "Testimonials Section of few people. Practiced it to enhance my GRID & FLEXBOX",
+                    "liveUrl": "https://mdaffanwd.github.io/css-grid-practice/",
+                    "githubUrl": "https://github.com/mdaffanwd/css-grid-practice",
+                    "level": "junior"
+                },
+                {
+                    "iframeLink": "https://mdaffanwd.github.io/css-four-card-section/",
+                    "name": "Feature Section - Grid Only",
+                    "description": "A visually stunning project that shows the featured section of that particular website",
+                    "liveUrl": "https://mdaffanwd.github.io/css-four-card-section/",
+                    "githubUrl": "https://github.com/mdaffanwd/css-four-card-section"
+                }
+            ]
+        },
+        {
+            "name": "JavaScript Projects",
+            "projects": [
+                {
+                    "iframeLink": "https://mdaffanwd.github.io/Fully-Functioning-Todo-App/",
+                    "name": "Fully Functioning Todo App with LocalStorage",
+                    "description": "TodoApplication with DRAG n Drop, THEME, ADD, EDIT, DELETE, UPDATE functionalities",
+                    "liveUrl": "https://mdaffanwd.github.io/css-grid-practice/",
+                    "githubUrl": "https://github.com/mdaffanwd/css-grid-practice"
+                }
+            ]
+        },
+        {
+            "name": "React Projects",
+            "projects": []
+        },
+        {
+            "name": "MERN Projects",
+            "projects": []
+        }
+    ]
+}

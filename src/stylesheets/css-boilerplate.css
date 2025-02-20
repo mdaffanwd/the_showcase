@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main,
+footer {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-primary);
+  outline: none;
+}
+
+a li:hover {
+  font-weight: 800;
+
+}
+
+ul,
+ol {
+  list-style: none;
+}
