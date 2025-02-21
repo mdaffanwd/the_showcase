@@ -59,7 +59,6 @@ header {
 }
 
 .logo {
-  animation: colorCycle 4s infinite linear;
   display: inline-block;
 }
 
