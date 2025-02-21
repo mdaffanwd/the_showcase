@@ -1,7 +1,7 @@
 {
     "icons": {
-        "tabIcon": "/external_link.svg",
-        "githubIcon": "/github_icon.svg"
+        "tabIcon": "/icons/external_link.svg",
+        "githubIcon": "/icons/github_icon.svg"
     },
     "categories": [
         {

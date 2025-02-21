@@ -90,6 +90,23 @@ nav {
   /* text-align: center; */
 }
 
+.social-links {
+  /* width: 80%; */
+  margin-top: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links a img {
+  height: 2.4rem;
+  margin-right: .6rem;
+  border-radius: 100%;
+  padding: .2rem;
+  border: 2px solid #000;
+  /* background-color: red; */
+}
+
 /* ----------------------------------------------------
     Main styles 
   ---------------------------------------------------- */
@@ -268,20 +285,14 @@ main {
     display: flex;
     justify-content: center;
     box-shadow: none;
-    /* display: none; */
-    /* box-shadow: none; */
     min-height: auto;
   }
 
-  nav,
-  .nav-links {
+  nav {
+    width: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0;
-  }
-
-  nav {
     /* width: 100%; */
     /* align-items: center; */
     border: 2px solid var(--color-muted);
@@ -294,9 +305,32 @@ main {
     /* filter: blur(2px); */
   }
 
-  .nav-links>* {
+  .nav-links {
+    /* width: 90%; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin: 0;
+  }
+
+  .li-links {
+    display: flex;
+    flex-basis: 45%;
+    border-right: 2px solid black;
+  }
+
+  .li-links>* {
     margin-left: 1.6rem;
     padding-bottom: 0;
+  }
+
+  .nav-links .nav-toggle {
+    display: none;
+  }
+
+  .social-links {
+    margin-top: 0;
   }
 
   .hero-section {
@@ -310,7 +344,7 @@ main {
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 740px) {
   body {
     position: relative;
     min-height: 100svh;
@@ -329,6 +363,8 @@ main {
   }
 
   .nav-links {
+    flex-direction: column;
+    justify-content: start;
     position: absolute;
     height: 100vh;
     top: 0;
@@ -348,6 +384,30 @@ main {
 
   .nav-links.active {
     transform: translateX(0);
+  }
+
+  .nav-links .nav-toggle {
+    /* align-self: baseline; */
+    display: block;
+    align-self: flex-end;
+  }
+
+  .li-links {
+    display: flex;
+    width: 100%;
+    flex-basis: unset;
+    flex-direction: column;
+    border-right: none;
+    margin-inline-start: 1rem;
+    padding-bottom: .4rem;
+    border-bottom: 2px solid black;
+
+  }
+
+  .nav-links .social-links {
+    margin-top: .8rem;
+    margin-left: 1rem;
+    width: 100%;
   }
 
   .open-close {
