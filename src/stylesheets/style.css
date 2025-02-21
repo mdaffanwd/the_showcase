@@ -47,11 +47,10 @@ header {
   grid-area: 1 / 1 / 2 / 2;
   max-width: 100%;
   min-height: 100%;
-  padding-block-start: 1rem;
   /* position: fixed; */
-  position: relative;
-  left: 0;
-  top: 0;
+  /* position: relative; */
+  /* left: 0; */
+  /* top: 0; */
   overflow-wrap: break-word;
   flex-wrap: wrap;
   white-space: normal;
@@ -61,6 +60,7 @@ header {
 
 .logo {
   animation: colorCycle 4s infinite linear;
+  display: inline-block;
 }
 
 nav,
@@ -75,6 +75,14 @@ nav,
 
 nav {
   position: fixed;
+  z-index: 999;
+}
+
+.open-close {
+  height: 2rem;
+
+  display: none;
+
 }
 
 .nav-links li {
@@ -88,11 +96,13 @@ nav {
 
 main {
   grid-area: 1 / 2 / 2 / 3;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* Hero Styles */
 .hero-section {
-  height: 90vh;
+  min-height: 90vh;
   /* background-color: red; */
   display: flex;
   align-items: center;
@@ -104,6 +114,7 @@ main {
   font-family: var(--font-play);
   /* color: var(--color-accent); */
   animation: colorCycle 4s infinite linear;
+  text-wrap: nowrap;
 }
 
 @keyframes colorCycle {
@@ -148,7 +159,7 @@ main {
 
 /* Project Section Styles */
 .projects-section {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .projects-section h1 {
@@ -163,7 +174,6 @@ main {
   cursor: pointer;
 }
 
-
 .project-section-name {
   margin-block: 1rem;
 }
@@ -174,7 +184,8 @@ main {
   justify-content: space-between;
   /* align-items: center; */
   /* align-items: stretch; */
-  gap: 1rem 1.5rem;
+  /* gap: 1rem 1.5rem; */
+  /* column-gap: 1.5rem; */
 }
 
 .card {
@@ -183,6 +194,7 @@ main {
   flex: 0 1 calc(50% - 1rem);
   /* 0 grow, 1 shrink, and a basis of 50% minus the gap */
   padding: 1.2rem;
+  margin-bottom: 1rem;
   border-radius: 1rem;
   box-shadow: 0px 0px 0.4rem 0px var(--color-muted)
 }
@@ -204,11 +216,10 @@ main {
   line-height: 1.3rem;
 }
 
-.card > p{
+.card>p {
   padding-block: .2rem;
   /* line-height: 0; */
 }
-
 
 .card .btns {
   display: flex;
@@ -236,4 +247,115 @@ main {
 
 .card .btn img {
   margin-left: 0.6em;
+}
+
+
+/* 
+====================================================
+   Media Query styles
+----------------------------------------------------
+====================================================
+ */
+/* Tablet size */
+@media screen and (max-width: 880px) {
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    box-shadow: none;
+    /* display: none; */
+    /* box-shadow: none; */
+    min-height: auto;
+  }
+
+  nav,
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+  }
+
+  nav {
+    /* width: 100%; */
+    /* align-items: center; */
+    border: 2px solid var(--color-muted);
+    border-radius: 25px;
+    justify-content: space-between;
+    margin: 1rem 1.4rem;
+    padding: .6rem 1.8rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* filter: blur(2px); */
+  }
+
+  .nav-links>* {
+    margin-left: 1.6rem;
+    padding-bottom: 0;
+  }
+
+  .hero-section {
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  .projects-section {
+    min-height: 80vh;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    position: relative;
+    min-height: 100svh;
+  }
+
+  header {
+    width: 100%;
+    margin-inline: .4rem;
+    margin: 0 auto;
+  }
+
+  nav {
+    width: 98%;
+    align-items: center;
+    margin-block: .2rem;
+  }
+
+  .nav-links {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-block-start: 5%;
+    padding-inline-end: 15%;
+    transform: translateX(110%);
+    transition: transform 0.3s ease-in-out;
+    backdrop-filter: blur(100px);
+    background-color: var(--color-background);
+    box-shadow: 0 .2rem .8rem 0px var(--color-muted);
+    z-index: 888;
+  }
+
+  .nav-links.active {
+    transform: translateX(0);
+  }
+
+  .open-close {
+    display: block;
+  }
+
+  .close-icon {
+    margin-bottom: .8rem;
+    transform: rotate(180deg);
+  }
 }

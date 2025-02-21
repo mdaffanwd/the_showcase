@@ -1,3 +1,5 @@
+import { collapseDetails } from "./detailsCollapse.js";
+
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     // Fetch the JSON data from the public folder
@@ -8,9 +10,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const data = await response.json();
     // console.log(data)
     const { categories, icons } = data
-
-    // icons
-
 
     // Grab the projects section container
     const projectsSection = document.getElementById('projects-section');
@@ -116,4 +115,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   } catch (error) {
     console.error('Error fetching projects:', error);
   }
+
+  // collapse details
+  collapseDetails()
 });

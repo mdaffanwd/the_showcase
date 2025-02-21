@@ -13,20 +13,24 @@
   <!-- <div id="app"></div> -->
 
   <!-- HEADER STARTS HERE. -->
-  <div class="header-wrapper">
-    <header>
-      <nav>
-        <a href="#">
-          <h1><span id="name">Affan</span>'s Showcase</h1>
-        </a>
-        <ul class="nav-links">
-          <li><a href="#main">Home</a></li>
-          <li><a href="#projects-section">Projects</a></li>
-          <li><a href="#">Developer</a></li>
-        </ul>
-      </nav>
-    </header>
-  </div>
+  <header>
+    <nav>
+      <a href="#" class="logo">
+        <h1><span id="name">Affan</span>'s Showcase</h1>
+      </a>
+      <ul class="nav-links">
+        <div class="nav-toggle"> <img src="/sidebar_open.svg" alt="sidebar Open icon" class="open-close close-icon">
+        </div>
+        <li><a href="#main">Home</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#">Developer</a></li>
+
+      </ul>
+      <div class="nav-toggle">
+        <img src="/sidebar_open.svg" alt="sidebar Open icon" class="open-close open-icon">
+      </div>
+    </nav>
+  </header>
   <!-- HEADER ENDS HERE. -->
 
   <!-- MAIN STARTS HERE. -->
@@ -43,7 +47,7 @@
 
     <section class="projects-section" id="projects-section">
       <h1>Projects</h1>
-     
+
       <!-- Loading the projects dynamically from generateProjects.js and projects.json -->
 
     </section>

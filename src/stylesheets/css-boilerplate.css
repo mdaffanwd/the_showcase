@@ -6,12 +6,6 @@
   box-sizing: border-box;
 }
 
-main,
-footer {
-  width: 90%;
-  margin: 0 auto;
-
-}
 
 html {
   font-size: 100%;

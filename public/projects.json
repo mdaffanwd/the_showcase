@@ -10,7 +10,7 @@
                 {
                     "iframeLink": "https://mdaffanwd.github.io/css-grid-practice/",
                     "name": "Testimonials Section Full Page",
-                    "description": "Testimonials Section of few people. Practiced it to enhance my GRID & FLEXBOX",
+                    "description": "Testimonials Section containing feedbacks of few Amazing Peope. Practiced it to enhance my GRID & FLEXBOX",
                     "liveUrl": "https://mdaffanwd.github.io/css-grid-practice/",
                     "githubUrl": "https://github.com/mdaffanwd/css-grid-practice",
                     "level": "junior"
@@ -31,8 +31,8 @@
                     "iframeLink": "https://mdaffanwd.github.io/Fully-Functioning-Todo-App/",
                     "name": "Fully Functioning Todo App with LocalStorage",
                     "description": "TodoApplication with DRAG n Drop, THEME, ADD, EDIT, DELETE, UPDATE functionalities",
-                    "liveUrl": "https://mdaffanwd.github.io/css-grid-practice/",
-                    "githubUrl": "https://github.com/mdaffanwd/css-grid-practice"
+                    "liveUrl": "https://mdaffanwd.github.io/Fully-Functioning-Todo-App/",
+                    "githubUrl": "https://github.com/mdaffanwd/Fully-Functioning-Todo-App"
                 }
             ]
         },
