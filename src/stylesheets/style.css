@@ -47,10 +47,6 @@ header {
   grid-area: 1 / 1 / 2 / 2;
   max-width: 100%;
   min-height: 100%;
-  /* position: fixed; */
-  /* position: relative; */
-  /* left: 0; */
-  /* top: 0; */
   overflow-wrap: break-word;
   flex-wrap: wrap;
   white-space: normal;
@@ -79,18 +75,14 @@ nav {
 
 .open-close {
   height: 2rem;
-
   display: none;
-
 }
 
 .nav-links li {
   margin-block: .6rem;
-  /* text-align: center; */
 }
 
 .social-links {
-  /* width: 80%; */
   margin-top: 1.4rem;
   display: flex;
   justify-content: space-between;
@@ -103,7 +95,6 @@ nav {
   border-radius: 100%;
   padding: .2rem;
   border: 2px solid #000;
-  /* background-color: red; */
 }
 
 /* ----------------------------------------------------
@@ -128,7 +119,6 @@ main {
 
 #name {
   font-family: var(--font-play);
-  /* color: var(--color-accent); */
   animation: colorCycle 4s infinite linear;
   text-wrap: nowrap;
 }
@@ -198,10 +188,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* align-items: center; */
-  /* align-items: stretch; */
-  /* gap: 1rem 1.5rem; */
-  /* column-gap: 1.5rem; */
 }
 
 .card {
@@ -216,7 +202,6 @@ main {
 }
 
 .card iframe {
-  /* height: fit-content; */
   margin-block-end: 1.6rem;
   border-radius: 1rem;
   border: none;
@@ -234,12 +219,10 @@ main {
 
 .card>p {
   padding-block: .2rem;
-  /* line-height: 0; */
 }
 
 .card .btns {
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
   gap: 1rem;
   margin-top: auto;
@@ -247,7 +230,6 @@ main {
 
 .card .btn {
   display: inline-flex;
-  /* width: fit-content; */
   background-color: var(--color-primary);
   color: var(--color-surface);
   cursor: pointer;
