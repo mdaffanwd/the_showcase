@@ -16,6 +16,6 @@
   /* Playwrite font */
   @font-face {
     font-family: 'Playwrite';
-    src: url('fonts/PlaywriteITModerna-Regular.woff2') format('woff2');
+    src: url('/fonts/PlaywriteITModerna-Regular.woff2') format('woff2');
   }
   
