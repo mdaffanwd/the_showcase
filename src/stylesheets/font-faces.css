@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('/fonts/Roboto-Regular.ttf') format('truetype'),
-      url('/fonts/Roboto-Regular.woff2') format('woff2');
+    src: url('/fonts/Roboto-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
   
@@ -9,8 +8,7 @@
   
   @font-face {
     font-family: 'Roboto';
-    src: url('/fonts/Roboto-SemiBold.ttf') format('truetype'),
-      url('/fonts/Roboto-SemiBold.woff2') format('woff2');
+    src: url('/fonts/Roboto-SemiBold.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
   }
@@ -18,7 +16,6 @@
   /* Playwrite font */
   @font-face {
     font-family: 'Playwrite';
-    src: url('fonts/PlaywriteITModerna-Regular.ttf') format('truetype'),
-      url('fonts/PlaywriteITModerna-Regular.woff2') format('woff2');
+    src: url('fonts/PlaywriteITModerna-Regular.woff2') format('woff2');
   }
   
