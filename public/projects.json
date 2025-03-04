@@ -5,6 +5,22 @@
     },
     "categories": [
         {
+            "name": "React Projects",
+            "projects": []
+        },
+        {
+            "name": "JavaScript Projects",
+            "projects": [
+                {
+                    "iframeLink": "https://mdaffanwd.github.io/Fully-Functioning-Todo-App/",
+                    "name": "Fully Functioning Todo App with LocalStorage",
+                    "description": "TodoApplication with DRAG n Drop, THEME, ADD, EDIT, DELETE, UPDATE functionalities",
+                    "liveUrl": "https://mdaffanwd.github.io/Fully-Functioning-Todo-App/",
+                    "githubUrl": "https://github.com/mdaffanwd/Fully-Functioning-Todo-App"
+                }
+            ]
+        },
+        {
             "name": "HTML & CSS Projects",
             "projects": [
                 {
@@ -23,22 +39,6 @@
                     "githubUrl": "https://github.com/mdaffanwd/css-four-card-section"
                 }
             ]
-        },
-        {
-            "name": "JavaScript Projects",
-            "projects": [
-                {
-                    "iframeLink": "https://mdaffanwd.github.io/Fully-Functioning-Todo-App/",
-                    "name": "Fully Functioning Todo App with LocalStorage",
-                    "description": "TodoApplication with DRAG n Drop, THEME, ADD, EDIT, DELETE, UPDATE functionalities",
-                    "liveUrl": "https://mdaffanwd.github.io/Fully-Functioning-Todo-App/",
-                    "githubUrl": "https://github.com/mdaffanwd/Fully-Functioning-Todo-App"
-                }
-            ]
-        },
-        {
-            "name": "React Projects",
-            "projects": []
         },
         {
             "name": "MERN Projects",
