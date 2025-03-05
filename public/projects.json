@@ -6,7 +6,15 @@
     "categories": [
         {
             "name": "React Projects",
-            "projects": []
+            "projects": [
+                {
+                    "iframeLink": "https://memory-game-by-affan.vercel.app/",
+                    "name": "Memory Game",
+                    "description": "A simple memory game built using ReactJS",
+                    "liveUrl": "https://memory-game-by-affan.vercel.app/",
+                    "githubUrl": "https://github.com/mdaffanwd/memory-game"
+                }
+            ]
         },
         
         {
